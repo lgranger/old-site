@@ -24,8 +24,8 @@ h4 h5 h6 p {
 }
 
 .timeline-center-line {
-  width: 5%;
-  background-color: #247BA0;
+  border-color: #247BA0;
+  border-width: medium;
 }
 
 .timeline-right {
