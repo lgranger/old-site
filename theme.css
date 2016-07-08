@@ -6,6 +6,7 @@
   width: 1024px;
   margin: auto;
   background-color: #FFFFFF;
+  overflow: hidden;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h4 h5 h6 p {
 
 .row-align {
   display: block;
+  overflow: hidden;
 }
 
 .timeline-left {
