@@ -1,19 +1,21 @@
-* {
+body {
   background-color: #247BA0;
 }
 
 .resume-page{
-  background-color: #FFFFFF;
   width: 1024px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
+  background-color: #FFFFFF;
   font-family: courier;
 }
 
 h4 h5 h6 p {
   font-family: 'Raleway', sans-serif;
+  background-color: #FFFFFF;
 }
 
 .timeline-left {
