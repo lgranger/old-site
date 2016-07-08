@@ -30,19 +30,15 @@ h2 h3 h4 p {
 .timeline-left {
   display: inline-block;
   float: left;
-  width: 25%;
-}
-
-.timeline-center-line {
-  display: inline-block;
-  border-color: #247BA0;
-  border-width: medium;
+  width: 30%;
+  text-align: right;
 }
 
 .timeline-right {
   display: inline-block;
   float: right;
   width: 70%;
+  text-align: left;
 }
 
 a {
