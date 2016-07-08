@@ -1,14 +1,14 @@
-body {
+/*body {
   background-color: #247BA0;
-}
+}*/
 
 #resume-page{
   width: 1024px;
   margin: auto;
+  background-color: #FFFFFF;
 }
 
 h1 {
-  background-color: #FFFFFF;
   font-family: courier;
   text-align: center;
 }
