@@ -26,6 +26,7 @@ h2 h3 h4 p {
   display: block;
   overflow: hidden;
   width: 100%;
+  text-align: center;
 }
 
 .hidden {
