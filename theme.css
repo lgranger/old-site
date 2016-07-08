@@ -27,6 +27,10 @@ h2 h3 h4 p {
   overflow: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 .timeline-left {
   display: inline-block;
   float: left;
