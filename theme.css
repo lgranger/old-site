@@ -4,10 +4,6 @@
   margin: auto;
 }
 
-body{
-  background-color: #247BA0;
-}
-
 h1 {
   font-family: courier;
 }
@@ -29,4 +25,13 @@ h4 h5 h6 p {
 .timeline-right {
   float: right;
   width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #50514F;
+}
+
+a:hover {
+  text-decoration: underline;
 }
