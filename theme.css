@@ -68,14 +68,26 @@ a:visited {
   color: #50514F;
 }
 
-/*css for popover*/
-span.dropt {border-bottom: thin dotted;}
-span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
-span.dropt span {position: absolute; left: -9999px;
-  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
-  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
-span.dropt:hover span {left: 2%; background: #ffffff;}
-span.dropt span {position: absolute; left: -9999px;
-  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px;
-  border-style:solid; border-color:black; border-width:1px;}
-span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;}
+/*css for tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
