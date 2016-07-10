@@ -29,6 +29,10 @@ h2 h3 h4 p {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .timeline-left {
   display: inline-block;
   float: left;
