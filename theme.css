@@ -79,6 +79,15 @@ h2 h3 h4 p {
   margin-top: 12px;
 }
 
+.circle-right {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #A1CE5E;
+  margin-left: 210px;
+  margin-top: 15px;
+}
+
 a {
   text-decoration: none;
   color: #50514F;
