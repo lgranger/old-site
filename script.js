@@ -4,8 +4,8 @@ $( document ).ready(function() {
   });
   $('.titleCLC').click(function(){
     $('p.CLC').slideToggle();
-    $(this).css({
-      "color": "#FFE066"
-    });
+    // $(this).css({
+    //   "color": "#FFE066"
+    // });
   });
 });
