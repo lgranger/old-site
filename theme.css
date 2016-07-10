@@ -29,15 +29,16 @@ h2 h3 h4 p {
   text-align: center;
 }
 
-.hidden {
-  display: none;
-}
-
 .timeline-left {
   display: inline-block;
   float: left;
   width: 30%;
   text-align: right;
+}
+
+.left-line {
+  padding-left: 20px;
+  border-left: 10px solid #247BA0;
 }
 
 .timeline-right {

@@ -1,5 +1,5 @@
 $( document ).ready(function() {
   $('.mail').click(function(){
-      $('.email').slideToggle();
+    $('.email').slideToggle();
   });
 });
