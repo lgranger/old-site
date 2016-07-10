@@ -8,4 +8,7 @@ $( document ).ready(function() {
   $('.title-Migo').click(function(){
     $('.desc-Migo').slideToggle();
   });
+  $('.title-Ada').click(function(){
+    $('.desc-Ada').slideToggle();
+  });
 });
