@@ -29,7 +29,9 @@ h2 h3 h4 p {
   text-align: center;
 }
 
-.hidden {
+.p {
+  margin-left: 15px;
+  width: 75%;
   display: none;
 }
 
