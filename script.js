@@ -3,6 +3,6 @@ $( document ).ready(function() {
     $('.email').slideToggle();
   });
   $('.title').click(function(){
-    $('title.next.children').slideToggle();
+    $('title.next(div).children').slideToggle();
   });
 });
