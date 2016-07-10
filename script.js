@@ -3,7 +3,7 @@ $( document ).ready(function() {
     $('.email').slideToggle();
   });
   $('.titleCLC').click(function(){
-    $('p.CLC').slideToggle();
+    $('.CLC').slideToggle();
     // $(this).css({
     //   "color": "#FFE066"
     // });
