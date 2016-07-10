@@ -1,4 +1,5 @@
-
-$('.mail').click(function(){
-    $('.email').slideToggle();
+$( document ).ready(function() {
+  $('.mail').click(function(){
+      $('.email').slideToggle();
+  });
 });
