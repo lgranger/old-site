@@ -6,6 +6,6 @@ $( document ).ready(function() {
     $('p.CLC').slideToggle();
     $(this).css({
       "color": "#FFE066"
-    });)
+    });
   });
 });
