@@ -22,7 +22,7 @@ h2 h3 h4 p {
   background-color: #FFFFFF;
 }
 
-p {
+.desc {
   margin-left: 15px;
   width: 75%;
   display: none;
