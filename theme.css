@@ -51,6 +51,7 @@ h2 h3 h4 p {
 .right-line {
   padding-right: 20px;
   border-right: 10px solid #247BA0;
+  margin-left: -50px;
 }
 
 .social-icons {
