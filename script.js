@@ -2,7 +2,10 @@ $( document ).ready(function() {
   $('.mail').click(function(){
     $('.email').slideToggle();
   });
-  $('.title').click(function(){
-    $('.desc').slideToggle();
+  $('.titleCLC').click(function(){
+    $('p.CLC').slideToggle();
+    $(this).css({
+      "color": "#FFE066"
+    });)
   });
 });
