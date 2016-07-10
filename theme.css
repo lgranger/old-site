@@ -22,17 +22,17 @@ h2 h3 h4 p {
   background-color: #FFFFFF;
 }
 
+p {
+  margin-left: 15px;
+  width: 75%;
+  display: none;
+}
+
 .row-align {
   display: block;
   overflow: hidden;
   width: 100%;
   text-align: center;
-}
-
-.p {
-  margin-left: 15px;
-  width: 75%;
-  display: none;
 }
 
 .timeline-left {
