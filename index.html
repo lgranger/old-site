@@ -5,15 +5,9 @@
     <title>Hello World. I'm Lauren.</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     <link rel="stylesheet" type="text/css" href="theme.css">
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   </head>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script type="text/javascript">
-
-  $('img.mail').click(function(){
-  		$('img.email').slideToggle();
-  });
-  </script>
   <body>
     <div id="resume-page">
         <h1>Hello World. I'm Lauren.</h1>
@@ -25,14 +19,16 @@
         </a>
         <a href="https://twitter.com/bumbbles21"><img src="./images/twitter.png" class="social-icons">
         </a>
-        <img src="./images/mail.png" class="social-icons mail">
+        <div class="mail">
+          <img src="./images/mail.png" class="social-icons mail">
+        </div>
         <a href="https://www.linkedin.com/in/lrgranger"><img src="./images/linkedin.png" class="social-icons">
         </a>
         <a href="http://stackoverflow.com/users/4756363/lauren-g"><img src="./images/stackoverflow.png" class="social-icons">
         </a>
       </div>
-      <div class="row-align">
-        <img src="./images/email.png" class="email hidden">
+      <div class="row-align email">
+        <img src="./images/email.png" class="hidden">
       </div>
 
       <div class="row-align">

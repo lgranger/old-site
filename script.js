@@ -1,3 +1,4 @@
-$('img.mail').click(function(){
-		$('img.email').slideToggle();
+
+$('.mail').click(function(){
+    $('.email').slideToggle();
 });
