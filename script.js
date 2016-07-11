@@ -17,4 +17,9 @@ $( document ).ready(function() {
     $('.title-Ada').toggleClass('title-selected');
     $('.circle-Ada').toggleClass('circle-right-selected');
   });
+  $('.title-HHS').click(function(){
+    $('.desc-HHS').slideToggle();
+    $('.title-HHS').toggleClass('title-selected');
+    $('.circle-HHS').toggleClass('circle-right-selected');
+  });
 });
