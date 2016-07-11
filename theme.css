@@ -30,11 +30,8 @@ h2 h3 h4 p {
 }
 
 .timeline-left {
-  display: inline-block;
   float: left;
-  width: 200px;
   text-align: right;
-  margin-right: 1000px;
 }
 
 .left-line {
@@ -43,11 +40,10 @@ h2 h3 h4 p {
 }
 
 .timeline-right {
-  display: inline-block;
   float: right;
   width: 500px;
   text-align: left;
-  margin-right: 274px;
+  margin-right: 60px;
 }
 
 .right-line {
@@ -63,7 +59,7 @@ h2 h3 h4 p {
 #sidebar {
   display: inline-block;
   float: right;
-  width: 180px;
+  width: 214px;
   text-align: left;
 }
 
