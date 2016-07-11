@@ -54,6 +54,14 @@ h2 h3 h4 p {
   border-right: 10px solid #247BA0;
 }
 
+.sidebar {
+  display: inline-block;
+  float: right;
+  width: 200px;
+  text-align: left;
+  margin-left: 1000px;
+}
+
 .social-icons {
   height: 60px;
   width: 60px;
