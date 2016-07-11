@@ -57,14 +57,14 @@ h2 h3 h4 p {
 
 .timeline {
   width: 810px;
+  display: inline-block;
 }
 
 #sidebar {
   display: inline-block;
   float: right;
-  width: 200px;
+  width: 180px;
   text-align: left;
-  margin-left: 1000px;
 }
 
 .social-icons {
