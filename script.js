@@ -14,5 +14,7 @@ $( document ).ready(function() {
   });
   $('.title-Ada').click(function(){
     $('.desc-Ada').slideToggle();
+    $('.title-Ada').toggleClass('title-selected');
+    $('.circle-Ada').toggleClass('circle-right-selected');
   });
 });
