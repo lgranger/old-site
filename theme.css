@@ -157,18 +157,17 @@ h2 h3 h4 p {
 }
 
 .circle-left-selected {
-  width: 40px;
+  width: 47px;
   height: 30px;
   background-color: #FFE066;
-  margin-right: 210px;
-  margin-top: 19px;
+  margin-right: 200px;
+  margin-top: 16px;
   border-radius: 0px 90px 90px 0px;
 }
 
 .title-left-selected {
   background-color: #FFE066;
   height: 27px;
-  width: 40%;
   border-top: 3px solid #FFE066;
 }
 
