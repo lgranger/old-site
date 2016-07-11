@@ -33,6 +33,7 @@ h2 h3 h4 p {
   float: left;
   text-align: right;
   width: 200px;
+  margin-right: 1000px;
 }
 
 .left-line {
