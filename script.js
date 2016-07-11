@@ -4,6 +4,8 @@ $( document ).ready(function() {
   });
   $('.title-CLC').click(function(){
     $('.desc-CLC').slideToggle();
+    $('.title-CLC').toggleClass('title-selected');
+    $('.desc-CLC').toggleClass('circle-right-selected');
   });
   $('.title-Migo').click(function(){
     $('.desc-Migo').slideToggle();
