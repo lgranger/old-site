@@ -34,6 +34,7 @@ h2 h3 h4 p {
   float: left;
   width: 200px;
   text-align: right;
+  margin-right: 1000px;
 }
 
 .left-line {
@@ -69,9 +70,10 @@ h2 h3 h4 p {
 }
 
 .desc-JSH {
-  margin-left: 15px;
+  margin-left: 50px;
   width: 75%;
   display: none;
+  display: block;
 }
 
 .title-CLC {
