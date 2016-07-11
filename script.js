@@ -9,6 +9,8 @@ $( document ).ready(function() {
   });
   $('.title-Migo').click(function(){
     $('.desc-Migo').slideToggle();
+    $('.title-Migo').toggleClass('title-selected');
+    $('.circle-Migo').toggleClass('circle-right-selected');
   });
   $('.title-Ada').click(function(){
     $('.desc-Ada').slideToggle();
