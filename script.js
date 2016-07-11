@@ -9,17 +9,17 @@ $( document ).ready(function() {
   });
   $('.title-Migo').click(function(){
     $('.desc-Migo').slideToggle();
-    $('.title-Migo').toggleClass('title-selected');
+    $('.title-Migo').toggleClass('title-right-selected');
     $('.circle-Migo').toggleClass('circle-right-selected');
   });
   $('.title-Ada').click(function(){
     $('.desc-Ada').slideToggle();
-    $('.title-Ada').toggleClass('title-selected');
+    $('.title-Ada').toggleClass('title-right-selected');
     $('.circle-Ada').toggleClass('circle-right-selected');
   });
   $('.title-HHS').click(function(){
     $('.desc-HHS').slideToggle();
-    $('.title-HHS').toggleClass('title-selected');
+    $('.title-HHS').toggleClass('title-right-selected');
     $('.circle-HHS').toggleClass('circle-right-selected');
   });
 });
