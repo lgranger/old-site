@@ -55,7 +55,7 @@ h2 h3 h4 p {
   border-right: 10px solid #247BA0;
 }
 
-.timeline {
+#timeline {
   width: 810px;
   display: inline-block;
 }
