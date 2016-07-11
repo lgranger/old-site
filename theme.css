@@ -45,8 +45,9 @@ h2 h3 h4 p {
 .timeline-right {
   display: inline-block;
   float: right;
-  width: 774px;
+  width: 500px;
   text-align: left;
+  margin-right: 274px;
 }
 
 .right-line {
@@ -54,7 +55,11 @@ h2 h3 h4 p {
   border-right: 10px solid #247BA0;
 }
 
-.sidebar {
+.timeline {
+  width: 810px;
+}
+
+#sidebar {
   display: inline-block;
   float: right;
   width: 200px;
