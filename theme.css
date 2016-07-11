@@ -147,6 +147,22 @@ h2 h3 h4 p {
   border-top: 3px solid #FFE066;
 }
 
+.circle-left-selected {
+  width: 40px;
+  height: 30px;
+  background-color: #FFE066;
+  margin-right: 210px;
+  margin-top: 19px;
+  border-radius: 0px 90px 90px 0px;
+}
+
+.title-left-selected {
+  background-color: #FFE066;
+  height: 27px;
+  width: 40%;
+  border-top: 3px solid #FFE066;
+}
+
 .tab {
   margin-left: 30px;
 }
