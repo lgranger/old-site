@@ -65,6 +65,15 @@ h2 h3 h4 p {
   cursor:pointer;
 }
 
+.title-JSH {
+}
+
+.desc-JSH {
+  margin-left: 15px;
+  width: 75%;
+  display: none;
+}
+
 .title-CLC {
 }
 
