@@ -17,6 +17,11 @@ $( document ).ready(function() {
     $('.title-Migo').toggleClass('title-right-selected');
     $('.circle-Migo').toggleClass('circle-right-selected');
   });
+  $('.title-FB').click(function(){
+    $('.desc-FB').slideToggle();
+    $('.title-FB').toggleClass('title-left-selected');
+    $('.circle-JSH').toggleClass('circle-left-selected');
+  });
   $('.title-Ada').click(function(){
     $('.desc-Ada').slideToggle();
     $('.title-Ada').toggleClass('title-right-selected');
