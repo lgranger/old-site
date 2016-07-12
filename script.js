@@ -20,7 +20,7 @@ $( document ).ready(function() {
   $('.title-FB').click(function(){
     $('.desc-FB').slideToggle();
     $('.title-FB').toggleClass('title-left-selected');
-    $('.circle-JSH').toggleClass('circle-left-selected');
+    $('.circle-FB').toggleClass('circle-left-selected');
   });
   $('.title-Ada').click(function(){
     $('.desc-Ada').slideToggle();
