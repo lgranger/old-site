@@ -7,7 +7,7 @@ $( document ).ready(function() {
     $('.title-CLC').toggleClass('title-right-selected');
     $('.circle-CLC').toggleClass('circle-right-selected');
   });
-  $('.title-JSH').click(function(){
+  $('.toggle-JSH').click(function(){
     $('.desc-JSH').slideToggle();
     $('.title-JSH').toggleClass('title-left-selected');
     $('.circle-JSH').toggleClass('circle-left-selected');
