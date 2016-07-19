@@ -14,13 +14,13 @@ $( document ).ready(function() {
   });
   $('.toggle-Migo').click(function(){
     $('.desc-Migo').slideToggle();
-    $('.title-Migo').toggleClass('title-right-selected');
-    $('.circle-Migo').toggleClass('circle-right-selected');
+    $('.title-Migo').toggleClass('title-left-selected');
+    $('.circle-Migo').toggleClass('circle-left-selected');
   });
-  $('.toggle-FB').click(function(){
-    $('.desc-FB').slideToggle();
-    $('.title-FB').toggleClass('title-left-selected');
-    $('.circle-FB').toggleClass('circle-left-selected');
+  $('.toggle-ADP').click(function(){
+    $('.desc-ADP').slideToggle();
+    $('.title-ADP').toggleClass('title-left-selected');
+    $('.circle-ADP').toggleClass('circle-left-selected');
   });
   $('.toggle-Ada').click(function(){
     $('.desc-Ada').slideToggle();
