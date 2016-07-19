@@ -27,7 +27,7 @@ $( document ).ready(function() {
     $('.title-Ada').toggleClass('title-right-selected');
     $('.circle-Ada').toggleClass('circle-right-selected');
   });
-  $('.title-HHS').click(function(){
+  $('.toggle-HHS').click(function(){
     $('.desc-HHS').slideToggle();
     $('.title-HHS').toggleClass('title-right-selected');
     $('.circle-HHS').toggleClass('circle-right-selected');
