@@ -32,4 +32,9 @@ $( document ).ready(function() {
     $('.title-HHS').toggleClass('title-right-selected');
     $('.circle-HHS').toggleClass('circle-right-selected');
   });
+  $('.toggle-UNI').click(function(){
+    $('.desc-UNI').slideToggle();
+    $('.title-UNI').toggleClass('title-right-selected');
+    $('.circle-UNI').toggleClass('circle-right-selected');
+  });
 });
