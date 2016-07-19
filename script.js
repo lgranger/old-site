@@ -12,7 +12,7 @@ $( document ).ready(function() {
     $('.title-JSH').toggleClass('title-left-selected');
     $('.circle-JSH').toggleClass('circle-left-selected');
   });
-  $('.title-Migo').click(function(){
+  $('.toggle-Migo').click(function(){
     $('.desc-Migo').slideToggle();
     $('.title-Migo').toggleClass('title-right-selected');
     $('.circle-Migo').toggleClass('circle-right-selected');
