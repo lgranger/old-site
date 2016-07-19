@@ -22,7 +22,7 @@ $( document ).ready(function() {
     $('.title-FB').toggleClass('title-left-selected');
     $('.circle-FB').toggleClass('circle-left-selected');
   });
-  $('.title-Ada').click(function(){
+  $('.toggle-Ada').click(function(){
     $('.desc-Ada').slideToggle();
     $('.title-Ada').toggleClass('title-right-selected');
     $('.circle-Ada').toggleClass('circle-right-selected');
