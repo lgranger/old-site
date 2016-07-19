@@ -17,7 +17,7 @@ $( document ).ready(function() {
     $('.title-Migo').toggleClass('title-right-selected');
     $('.circle-Migo').toggleClass('circle-right-selected');
   });
-  $('.title-FB').click(function(){
+  $('.toggle-FB').click(function(){
     $('.desc-FB').slideToggle();
     $('.title-FB').toggleClass('title-left-selected');
     $('.circle-FB').toggleClass('circle-left-selected');
