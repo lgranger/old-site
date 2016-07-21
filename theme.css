@@ -22,6 +22,12 @@ h2 h3 h4 p {
   background-color: #FFFFFF;
 }
 
+.projects {
+  margin: 45px;
+  border: solid 8px #247BA0;
+  padding-left: 20px;
+}
+
 .row-align {
   display: block;
   overflow: hidden;
