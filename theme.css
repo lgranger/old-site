@@ -28,6 +28,14 @@ h2 h3 h4 p {
   padding-left: 20px;
 }
 
+.projects-left {
+  text-align: right;
+}
+
+.projects-right {
+  text-align: right;
+}
+
 .project-img {
   width: 220px;
   float: right;
